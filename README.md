@@ -178,75 +178,64 @@ Attempting to log în using invalid credentials (email / username / phone number
 
 ## 8. Test the login feature with valid credentials.
 
-Description: Test the login feature by using valid credentials for email/username/phone number and password.
+**Description:** Test the login feature by using valid credentials for email/username/phone number and password.
 
+**Steps to reproduce:** 
+* Case 1 (valid email)
+1. Access the Login page
+2. Insert a valid email
+3. Insert a valid password 
+4. Click on login button
 
-Case 1 (valid email)
-Steps to reproduce: 
-Access the Login page
-Insert a valid email
-Insert a valid password 
-Click on login button
+* Case 2 (valid username)
+1. Access the Login page
+2. Insert a valid username
+3. Insert a valid password 
+4. Click on login button
 
-Case 2 (valid username)
-Steps to reproduce: 
-Access the Login page
-Insert a valid username
-Insert a valid password 
-Click on login button
+* Case 3 (valid phone number)
+1. Access the Login page
+2. Insert a valid phone number
+3. Insert a valid password 
+4. Click on login button
 
-Case 3 (valid phone number)
-Steps to reproduce: 
-Access the Login page
-Insert a valid phone number
-Insert a valid password 
-Click on login button
-
-Expected results: Logging in with valid credentials should redirect the user to the instagram's landing menu.
-
-Non-Functional
-
-
-Compatibility Test
-
+**_Expected results:_** Logging in with valid credentials should redirect the user to the instagram's landing menu.
 
 ## 9. Test website compatibility for multiple browsers.
+// Non-Functional tests - Compatibility
 
-Description: Verify if the website runs properly using different web browsers: Chrome, Safari, Firefox.
+**Description:** Verify if the website runs properly using different web browsers: Chrome, Safari, Firefox.
 
-Case 1 (Chrome)
-Steps to reproduce: 
-Open Chrome browser
-Proceed to the Instagram login page 
-Perform a quick check test
+**Steps to reproduce:** 
+* Case 1 (Chrome)
+1. Open Chrome browser
+2. Proceed to the Instagram login page 
+3. Perform a quick check test
 
-Case 2 (Firefox)
-Steps to reproduce: 
-Open Firefox browser
-Proceed to the Instagram login page 
-Perform a quick check test
+* Case 2 (Firefox)
+1. Open Firefox browser
+2. Proceed to the Instagram login page 
+3. Perform a quick check test
 
-Case 3 (Safari)
-Steps to reproduce: 
-Open Safari browser
-Proceed to the Instagram login page 
-Perform a quick check test
+* Case 3 (Safari)
+1. Open Safari browser
+2. Proceed to the Instagram login page 
+3. Perform a quick check test
 
-Expected results: The website behaves properly having no broken UI assets and all buttons and features are functional. 
+**_Expected results:_** The website behaves properly having no broken UI assets and all buttons and features are functional. 
 
-
-Load Test
 
 ## 10. Test the login page behavior under high load conditions.
+// Non-Functional tests - Load Test
 
-Description: Simulate a large number of authentication requests to the server within a short period of time, to assess how the system handles a heavy load.
+**Description:** Simulate a large number of authentication requests to the server within a short period of time, to assess how the system handles a heavy load.
 
-Steps to reproduce: 
-Open the testing tool (ex: Apache JMeter)
-Define a configuration that simulates 500 users attempting to log in simultaneously
-Run the load test
+**Steps to reproduce:** 
+1. Open the testing tool (ex: Apache JMeter)
+2. Define a configuration that simulates 500 users attempting to log in simultaneously
+3. Run the load test
 
-Expected results: 
-The response time of the login page should remain within acceptable limits (values can be defined)
-The error rate should be minimal.
-The system's resource utilization, such as CPU, memory, and network usage, are within acceptable limits (values can be defined)
+**_Expected results:_** 
+* The response time of the login page should remain within acceptable limits (values can be defined)
+* The error rate should be minimal.
+* The system's resource utilization, such as CPU, memory, and network usage, are within acceptable limits (values can be defined)
