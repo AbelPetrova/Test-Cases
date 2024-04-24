@@ -171,8 +171,7 @@ Current Instagram Login Page at 15.04.2024
 4. Click on login button
 
 
-**_Expected results:_**
-After inputting some characters inside the password field, a functional button which hides / unhides the typed characters is displayed on the right side of the password field. 
+**_Expected results:_** 
 Attempting to log în using invalid credentials (email / username / phone number / password) will result în an error stating: “Sorry, your password was incorrect. Please double-check your password.”
 
 
