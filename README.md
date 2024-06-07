@@ -2,7 +2,10 @@
 
 Hello,
 
-Below you'll find a brief test case I've designed to test Instagram's login page. I want to mention that the test case **_is not exhaustive_**; it only targets a few functionality tests aimed to verify aspects such as:
+Below you'll find a brief test case I've designed to test Instagram's login page. 
+
+> [!NOTE]
+> The test case **_is not exhaustive_**; it only targets a few functionality tests aimed to verify aspects such as:
 
 + UI elements
 + Successful Authentication
